@@ -1,0 +1,162 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 12px;
+}
+
+.hyperspan
+{
+    width:200px;
+    height:85px;
+    position:absolute;
+    border-radius: 12px;
+}
+
+.btnbr{
+  width:200px;
+  height:85px;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 12px;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.link:hover span{
+  background-color: #00b3b3;
+  opacity: 0.5;
+  border-radius: 12px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #00CCCC;
+  color: black;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: #00e6e6;
+}
+
+#judulhalaman {
+  width: 723px;
+  color: #333;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid #999;
+  padding: 7px 14px;
+  margin: 7px 9px;
+  border-radius: 5px;
+}
+
+#tengah {
+  width: 1554px;
+    margin-left: auto;
+    margin-right: auto;
+  border: 1px solid #1a4667;
+  background-color: #f0f5f9;
+}
+
+table {
+  margin: 5px 9px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+td {
+  padding: 5px 9px;
+  border: 1px solid #1a4667;
+}
+
+#namaField {
+  color: #FFF;
+  background-color: #333;
+  text-align: center;
+  padding-top: 7px;
+  border: 1px solid white;
+}
